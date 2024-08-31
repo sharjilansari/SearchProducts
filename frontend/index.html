@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zimeshare</title>
+
+    <link href="output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 p-4">
+    <input type="text" placeholder="Search Product" oninput="searchProductHandler(event)" class="border border-gray-300 rounded p-2 w-full mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+
+    <div id="product-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4"></div>
+
+    <!-- Axios CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.6/axios.min.js" integrity="sha512-aQl7URA8zE3fUDS504REaAyuqeMEIah2tsnmI9VoXIS3NnQNvotwzTttKy83mnTYrZkaMZqTepELh+CgdRnXjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom Script -->
+    <script src="main.js"></script>
+</body>
+</html>
